@@ -5,6 +5,7 @@ public class ATM
     public int id_Num { get; set; }
     public decimal cash_On_Hand { get; set; }
     public string? location { get; set; }
+    public static int numOptions = 3;
 
     public void DisplayOptions()
     {

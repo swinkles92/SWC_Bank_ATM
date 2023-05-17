@@ -19,13 +19,13 @@ public class ATM_Hub
         ATM atm2 = new(
             id_Num: 2,
             cash_On_Hand: 5000,
-            location: "Las Vegas");
+            location: "Rio Rancho");
         connected_ATMs?.Add(atm2);
 
         ATM atm3 = new(
             id_Num: 3,
             cash_On_Hand: 5000,
-            location: "San Diego");
+            location: "Corrales");
         connected_ATMs?.Add(atm3);
     }
 }
