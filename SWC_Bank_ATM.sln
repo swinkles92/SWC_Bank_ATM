@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 25.0.1705.4
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ATM_Manager", "ATM_Manager\ATM_Manager.csproj", "{B000F1EB-029C-4E17-8248-A3DD8FE2E6AF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ATMManager", "ATM_Manager\ATMManager.csproj", "{B000F1EB-029C-4E17-8248-A3DD8FE2E6AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ATMManagerTests", "ATMManagerTests\ATMManagerTests.csproj", "{195726C9-B160-4015-92E5-6CB746D28B95}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{B000F1EB-029C-4E17-8248-A3DD8FE2E6AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B000F1EB-029C-4E17-8248-A3DD8FE2E6AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B000F1EB-029C-4E17-8248-A3DD8FE2E6AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{195726C9-B160-4015-92E5-6CB746D28B95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{195726C9-B160-4015-92E5-6CB746D28B95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{195726C9-B160-4015-92E5-6CB746D28B95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{195726C9-B160-4015-92E5-6CB746D28B95}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

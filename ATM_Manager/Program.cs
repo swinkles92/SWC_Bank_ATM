@@ -1,3 +1,6 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using SWCBank;
 
+ATM test = new ATM(1000);
+
+WriteLine("Input");
+takeUserNumericalInput();
