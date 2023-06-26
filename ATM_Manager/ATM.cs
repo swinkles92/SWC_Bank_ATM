@@ -2,14 +2,23 @@
 
 public class ATM
 {
-    public int id_Num { get; set; }
+    // total amt of cash stored in ATM
     public decimal cash_On_Hand { get; set; }
-    public string? location { get; set; }
+    // total num of user-selectable options
     public static int numOptions = 3;
 
-    public void DisplayOptions()
+    /// <summary>
+    /// Prints the welcome message to user.
+    /// </summary>
+    public void DisplayWelcomeMsg()
     {
         WriteLine("Welcome to SWC Bank!");
+    }
+    /// <summary>
+    /// Prints the list of available options to the user.
+    /// </summary>
+    public void DisplayOptions()
+    {
         WriteLine("Please enter the number of your desired " +
             "transaction from the list below:");
         WriteLine("(1) Deposit cash");
@@ -20,15 +29,11 @@ public class ATM
     /// <summary>
     /// Initializes a new instance of the <see cref="ATM"/> class.
     /// </summary>
-    /// <param name="id_Num">Identification number of the ATM</param>
     /// <param name="cash_On_Hand">Amount of cash (dollars) currently held
     /// inside the ATM</param>
-    /// <param name="location">Physical location (city) of the ATM</param>
-    public ATM(int id_Num, decimal cash_On_Hand, string location)
+    public ATM(decimal cash_On_Hand)
     {
-        this.id_Num = id_Num;
         this.cash_On_Hand = cash_On_Hand;
-        this.location = location;
     }
 
     /// <summary>

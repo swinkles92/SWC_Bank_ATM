@@ -1,8 +1,6 @@
 ﻿using SWCBank;
 
-ATM_Hub hub = new();
-hub.startHub();
+ATM test = new ATM(1000);
 
-ATM chosenATM = SelectATMLocation(hub);
-WriteLine($"You have chosen ATM {chosenATM.id_Num}");
-
+WriteLine("Input");
+takeUserNumericalInput();
