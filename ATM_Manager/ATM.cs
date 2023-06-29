@@ -1,4 +1,4 @@
-﻿namespace SWCBank;
+﻿namespace SW.Shared;
 
 public class ATM
 {

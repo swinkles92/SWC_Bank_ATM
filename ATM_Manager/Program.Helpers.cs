@@ -1,4 +1,6 @@
-﻿partial class Program
+﻿using SW.Shared;
+
+partial class Program
 {
     public static int TakeUserNumericalInput()
     {
